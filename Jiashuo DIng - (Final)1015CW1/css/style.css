@@ -1,0 +1,35 @@
+body {
+  background-image: url("../img/background.jpeg");
+  background-size: cover;
+}
+
+    h1 {
+      text-align: center;
+      color: #000000;
+      font-weight: 800;
+     }
+
+ a {
+      color: white;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      font-weight: 800;
+    }
+
+  h2 {
+      font-size: 40px;
+    }
+
+  h3 {
+        font-size: 40px;
+      }
+
+      img {
+       width: 100%;
+       height: auto;
+     }
+     video {
+       width: 100%;
+       height: auto;
+     }

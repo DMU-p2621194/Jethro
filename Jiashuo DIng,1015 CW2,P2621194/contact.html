@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="head wrap clearfix">
+            <div class="logo fl">
+                <a href="javascript:;">
+                    <img src="./images/logo.jpg" alt="" width="200">
+                </a>
+            </div>
+            <div class="nav fr">
+                <ul>
+                    <li>
+                        <a href="javascript:;" id="menu">MENU</a>
+                        <ol id="inner">
+                            <li><a href="Home.html">Home</a></li>
+                            <li><a href="Shoe_story.html">Shoes story</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div class="touch wrap">
+                <h2>Contact Me</h2>
+                <div class="me">
+                    <div class="me_l">
+                        <div class="me_head">
+                            <img src="./images/me.png" alt="" width="300">
+                        </div>
+                        <div class="me_contact">
+                            <p class="ins">Jethro_China0130</p>
+                            <p class="email">731062237@qq.com</p>
+                        </div>
+                    </div>
+                    <div class="me_r">
+                        <ul class="clearfix">
+                            <li>
+                                <img src="./images/club1.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/club2.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/club3.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot wrap">
+            <p>@Jethro</p>
+        </div>
+    </footer>
+</body>
+<script src="./js/jquery-1.10.1.min.js"></script>
+    <script>
+        var menu = $("#menu");
+        var inner = $("#inner");
+        menu.click(function(){
+            inner.toggleClass("active");
+        })
+    </script>
+</html>

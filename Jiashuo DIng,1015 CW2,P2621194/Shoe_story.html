@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="head wrap clearfix">
+            <div class="logo fl">
+                <a href="javascript:;">
+                    <img src="./images/logo.jpg" alt="" width="200">
+                </a>
+            </div>
+            <div class="nav fr">
+                <ul>
+                    <li>
+                        <a href="javascript:;" id="menu">MENU</a>
+                        <ol id="inner">
+                            <li><a href="Home.html">Home</a></li>
+                            <li><a href="Shoe_story.html">Shoes story</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div class="shoe_list">
+                <ul>
+                    <li>
+                        <div class="shoe_item">
+                            <div class="shoe_item_l">
+                                <img src="./images/shoe1.png" alt="">
+                            </div>
+                            <div class="shoe_item_r">
+                                <h2>Dunk SB ‘FLOM'</h2>
+                                <p>The color designed by a famous designer named Future. This is a version that is not available to the public. There are 24 pairs in all over the world.'Flom' stands For 'For love or money' and this is a question Futura asks sneaker lovers whether they like shoes For money or For love.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shoe_item">
+                            <div class="shoe_item_l">
+                                <img src="./images/shoe2.png" alt="">
+                            </div>
+                            <div class="shoe_item_r">
+                                <h2>Dunk SB London City'</h2>
+                                <p>A pair of shoes designed by Nike for the city of London, the grey colour is used to represent smog. The embroidery on the heel represents the Thames, and the design is in the shape of the River Thames。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shoe_item">
+                            <div class="shoe_item_l">
+                                <img src="./images/shoe3.png" alt="">
+                            </div>
+                            <div class="shoe_item_r">
+                                <h2>Dunk SB Paris city</h2>
+                                <p>The shoes were originally designed by Nike for the first stop of the DUNK World Roadshow in Paris, and the design was borrowed from French painter Bernard Buffet, who combined the painting with the trend to create this pricy pair of super-limited sneakers。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shoe_item">
+                            <div class="shoe_item_l">
+                                <img src="./images/shoe4.png" alt="">
+                            </div>
+                            <div class="shoe_item_r">
+                                <h2>Dunk SB‘What the dunk’</h2>
+                                <p>This pair is the beginning of Nike's 'What the' collection, which combines 36 pairs of Dunk SB elements into a single shoe. It is also a super limited shoe, but it has attracted many sneaker lovers' love。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shoe_item">
+                            <div class="shoe_item_l">
+                                <img src="./images/shoe5.png" alt="">
+                            </div>
+                            <div class="shoe_item_r">
+                                <h2>Dunk SB ‘ Michael Lau’</h2>
+                                <p>This pair of shoes is a famous doll designer Michael lau design, whole shoe body USES the wood grain, let many players think this is a pair of shoes made of wood, but this is just a cortex,can say very collectable。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shoe_item">
+                            <div class="shoe_item_l">
+                                <img src="./images/shoe6.png" alt="">
+                            </div>
+                            <div class="shoe_item_r">
+                                <h2>Dunk SB ‘ Heineken’</h2>
+                                <p>The name of the shoes is' Heineken ', but the shoes are not a collaboration with Heineken, and Nike copied the color. Heineken took Nike to court, demanding the shoes be destroyed. Although Nike recalled a lot of shoes at that time, but still a small part of the shoes  still outside , so now like to call it Dunk sb 'Heineken'.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot wrap">
+            <p>@Jethro</p>
+        </div>
+    </footer>
+</body>
+<script src="./js/jquery-1.10.1.min.js"></script>
+    <script>
+        var menu = $("#menu");
+        var inner = $("#inner");
+        menu.click(function(){
+            inner.toggleClass("active");
+        })
+    </script>
+</html>
